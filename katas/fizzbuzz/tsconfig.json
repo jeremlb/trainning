@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      "target": "ES2022",
+      "module": "node16",
+      "lib": [
+          "es2022"
+      ],
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      "outDir": "./dist"
+  },
+  "files": [
+      "src/main.ts"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "author": "Jérémi Le Bourhis",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.3",
+    "typescript": "^4.7.2"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text"
+    ],
+    "reporters": [
+      "default"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.spec.ts"
+    ],
+    "testEnvironment": "node"
+  }
+}
